@@ -26,9 +26,9 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
     PRIVATE_KEY=<the private key which will be used for deploying the smart contract. This account will be providing the deployment gas fee cost>
     NETWORK=<the network name to which this smart contract will be deployed (mainnet, rinkeby)>
     ```
-- Deploy smart contract in rinkeby we need to run the following command
+- Deploy smart contract in goerli we need to run the following command
 	````
-		yarn deploy:contract:rinkeby
+		yarn deploy:contract:goerli
 	````
 - Deploy smart contract in main net we need to run the following command
 	````
@@ -40,5 +40,5 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
     ````
     example 
     ````
-        npx hardhat verify --network rinkeby 0xC2817D0f4deeCe26dF0635a4128DB3bB3729f872
+        npx hardhat verify --network rinkeby <smart contract address>
     ````
